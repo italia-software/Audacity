@@ -1,0 +1,157 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - digital-asset-management
+description:
+  it:
+    documentation: 'https://www.audacityteam.org/help/documentation/'
+    features:
+      - audio editing
+    genericName: Audio software
+    screenshots:
+      - https://www.audacityteam.org/wp-content/uploads/2020/10/01-Audacity-Rhythm-Track-and-mono-vocal-track-waveform-view.png
+      - https://www.audacityteam.org/wp-content/uploads/2020/10/03-Audacity-in-Multi-view-with-a-spectral-selection.png
+      - https://www.audacityteam.org/wp-content/uploads/2020/10/04-Note-track-playing-in-Audacity.png
+    longDescription: |
+      Audacity is an easy-to-use, multi-track audio editor and recorder for
+      Windows, macOS, GNU/Linux and other operating systems. Audacity is free,
+      open source software.
+
+
+      ## Supported platforms
+
+
+      Audacity is a fast multi-track audio editor and recorder for: 
+
+
+      - Windows 7 and later
+
+      - Macintosh OS X 10.6 and later
+
+      - Linux/Unix and other \*.nix-based systems 
+
+
+      For older versions of Audacity that support older operating systems, see
+      [https://audacityteam.org/download/#legacy](https://audacityteam.org/download/#legacy). 
+
+
+      ## Features
+
+
+      For a fuller list of Audacity's features please see the
+      [Features](https://www.audacityteam.org/about/features/) page of our
+      Audacity website.  
+
+
+      ### Supported file formats
+
+
+      Audacity supports several digital audio file formats with support for
+      24-bit and 32-bit [sample
+      formats](https://wiki.audacityteam.org/wiki/Bit_Depth "Bit Depth") as well
+      as 16-bit. Supported formats include:  
+
+
+      - [WAV](https://wiki.audacityteam.org/wiki/WAV "WAV") 
+
+      - [AIFF](https://wiki.audacityteam.org/wiki/AIFF "AIFF") 
+
+      - [OGG](https://wiki.audacityteam.org/wiki/OGG "OGG")
+
+      - **MP3**
+
+
+      ### Sound manipulation and analysis
+
+
+      For sound analysis you may use the spectrogram mode or a spectrum analyzer
+      window. Also Audacity has [built-in
+      effects](https://manual.audacityteam.org/man/index_of_effects_generators_and_analyzers.html)
+      and supports the following plug-ins (providing additional effects and
+      processing): 
+
+
+      - [Audio Unit plug-ins](https://wiki.audacityteam.org/wiki/Audio_Units
+      "Audio Units")
+
+      - [LADSPA Plug-ins](https://wiki.audacityteam.org/wiki/Ladspa_Plugins
+      "Ladspa Plugins")
+
+      - [LV2
+      Plug-ins](https://manual.audacityteam.org/man/effect_menu.html#LV2_effects)
+
+      - [Nyquist Plug-ins](https://wiki.audacityteam.org/wiki/Nyquist_Plug-ins
+      "Nyquist Plug-ins")
+
+      - [VST Plug-ins](https://wiki.audacityteam.org/wiki/VST_Plug-ins "VST
+      Plug-ins") 
+
+      - [Vamp Plug-ins](https://wiki.audacityteam.org/wiki/Vamp_Plug-ins "Vamp
+      Plug-ins") 
+
+
+      All plug-ins except Nyquist and Vamp support [real-time
+      preview](https://manual.audacityteam.org/man/real_time_preview_of_effects.html).  
+
+
+      ### Advanced features
+
+
+      Advanced features include:  
+
+
+      - [Envelope
+      editing](https://manual.audacityteam.org/man/envelope_tool.html)
+
+      - [Mixing of tracks](https://manual.audacityteam.org/man/mixing.html)
+
+      - [Recording
+      overdubs](https://manual.audacityteam.org/man/tutorial_recording_multi_track_overdubs.html)
+      while playing previously recorded tracks
+
+      -
+      [Scrubbing](https://manual.audacityteam.org/man/scrubbing_and_seeking.html)
+      - quickly navigate the waveform to find a particular event of interest
+
+      - [Spectral
+      editing](https://manual.audacityteam.org/man/spectral_selection.html)
+    shortDescription: 'Free, open source, cross-platform audio software'
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+landingURL: 'https://www.audacityteam.org/'
+legal:
+  license: GPL-3.0-only
+localisation:
+  availableLanguages:
+    - it
+    - en
+  localisationReady: false
+maintenance:
+  contacts:
+    - name: Audacity team
+  type: community
+name: Audacity
+logo: https://manual.audacityteam.org/m/images/8/8c/audacity_logo_whitebg.png
+platforms:
+  - windows
+  - linux
+  - ios
+releaseDate: '2021-12-23'
+roadmap: 'https://wiki.audacityteam.org/wiki/Roadmap'
+softwareType: standalone/desktop
+softwareVersion: 3.1.3
+url: 'https://github.com/audacity/audacity'
